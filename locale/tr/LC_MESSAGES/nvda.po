@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: stickyNotes 1.0.0\n"
+"Report-Msgid-Bugs-To: bilgi@kodyazabil.me\n"
+"POT-Creation-Date: 2026-11-15 22:05+0300\n"
+"PO-Revision-Date: 2026-11-15 22:05+0300\n"
+"Last-Translator: Bora Fırlangeç\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Unnamed Control"
+msgstr "İsimsiz Kontrol"
+
+msgid "Edit Sticky Note: {control}"
+msgstr "Yapışkan Not Düzenle: {control}"
+
+msgid "Note Content (Markdown supported):"
+msgstr "Not İçeriği (Markdown desteklenir):"
+
+msgid "&Save"
+msgstr "&Kaydet"
+
+msgid "&Cancel"
+msgstr "&İptal"
+
+msgid "&Delete Note"
+msgstr "Notu &Sil"
+
+msgid "{app} - Saved Notes ({count})"
+msgstr "{app} - Kayıtlı Notlar ({count} adet)"
+
+msgid "Press Enter on a note to edit it:"
+msgstr "Düzenlemek istediğiniz notun üzerinde Enter tuşuna basın:"
+
+msgid "&Edit (Enter)"
+msgstr "&Düzenle (Enter)"
+
+msgid "&Browse Mode View"
+msgstr "&Sanal Web Görünümü"
+
+msgid "&Close"
+msgstr "&Kapat"
+
+msgid "Virtual Sticky Notes"
+msgstr "Sanal Yapışkan Notlar"
+
+msgid "Note saved."
+msgstr "Not kaydedildi."
+
+msgid "Note deleted."
+msgstr "Not silindi."
+
+msgid "Note: {summary}"
+msgstr "Not: {summary}"
+
+msgid "Add or edit a sticky note for the focused control."
+msgstr "Odaktaki kontrole yapışkan not ekler veya mevcut notu düzenler."
+
+msgid "Open the list of saved notes for the active application."
+msgstr "Aktif uygulamadaki kayıtlı notların listesini açar."
+
+msgid "No notes saved for {app}."
+msgstr "{app} uygulaması için kayıtlı not yok."
+
+msgid "Control Note"
+msgstr "Kontrol Notu"
+
+msgid "Sticky Note - {control}"
+msgstr "Yapışkan Not - {control}"
+
+msgid "View the sticky note of the focused control in browse mode."
+msgstr "Odaktaki kontrolün yapışkan notunu sanal web arayüzünde görüntüler."
+
+msgid "No note saved for this control."
+msgstr "Bu kontrolde kayıtlı not yok."

@@ -1,0 +1,83 @@
+<h1 id="sanal-yapışkan-notlar-virtual-sticky-notes">Sanal Yapışkan
+Notlar (Virtual Sticky Notes)</h1>
+<ul>
+<li><strong>Yazar:</strong> Bora Fırlangeç</li>
+<li><strong>Sürüm:</strong> 1.0.0</li>
+<li><strong>NVDA Uyumluluğu:</strong> 2023.1 ve üzeri</li>
+</ul>
+<p>Sanal Yapışkan Notlar; görme engelli ve ekran okuyucu kullanan
+kullanıcıların masaüstü uygulamalarında veya web sayfalarında
+odaklandıkları arayüz kontrollerine (butonlar, yazı alanları,
+bağlantılar vb.) kişisel <strong>Markdown</strong> notları
+iliştirmelerini sağlayan bir NVDA eklentisidir.</p>
+<h2 id="temel-özellikler">Temel Özellikler</h2>
+<ul>
+<li><strong>Akıllı Kontrol Tanıma (Parmak İzi Sistemi):</strong>
+Pencereler kapatılıp açılsa veya web sayfaları yenilense bile
+eklediğiniz notlar ilgili kontrole yapışık kalır.</li>
+<li><strong>Anında Sesli Geri Bildirim:</strong> Üzerinde not bulunan
+bir kontrole odaklandığınızda kısa bir bildirim sesi duyarsınız ve notun
+ilk satırı özet olarak seslendirilir.</li>
+<li><strong>Markdown Desteği:</strong> Notlarınızı başlıklar
+(<code>#</code>), listeler (<code>-</code>), bağlantılar
+(<code>[metin](adres)</code>) ve tablolar kullanarak yapılandırılmış
+şekilde yazabilirsiniz.</li>
+<li><strong>Sanal Web Görünümü (Browse Mode):</strong> Kayıtlı notları
+harici bir tarayıcı açmadan doğrudan NVDA’nın sanal imleç penceresinde
+HTML olarak görüntüleyebilir; <code>H</code> (başlık), <code>L</code>
+(liste), <code>K</code> (bağlantı) gibi standart web navigasyon
+tuşlarıyla notun içinde gezinebilirsiniz.</li>
+<li><strong>Uygulama Bazlı Not Listesi:</strong> Aktif uygulamaya ait
+tüm notları tek bir listede görüntüleyebilir ve <strong>Enter</strong>
+tuşuna basarak hızla düzenleyebilirsiniz.</li>
+<li><strong>Kalıcı Depolama:</strong> Notlarınız NVDA kullanıcı
+yapılandırma dizininde (<code>sticky_notes.json</code>) saklanır;
+eklentiyi güncelleseniz bile verileriniz kaybolmaz.</li>
+</ul>
+<h2 id="klavye-kısayolları">Klavye Kısayolları</h2>
+<p>Tüm kısayollar <strong>NVDA Menüsü &gt; Tercihler &gt; Girdi
+Hareketleri &gt; Sanal Yapışkan Notlar</strong> kategorisi altından
+özelleştirilebilir:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Kısayol</th>
+<th style="text-align: left;">İşlev</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>NVDA + Shift + N</code></td>
+<td style="text-align: left;">Odaktaki kontrole yeni yapışkan not ekler
+veya mevcut notu düzenler.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>NVDA + Alt + N</code></td>
+<td style="text-align: left;">Aktif uygulamada kayıtlı tüm notların
+listesini açar (Seçili not üzerinde <code>Enter</code> tuşuna basarak
+düzenleme ekranını açabilirsiniz).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>NVDA + Ctrl + N</code></td>
+<td style="text-align: left;">Odaktaki kontrolün notunu HTML olarak
+render eder ve NVDA sanal web arayüzünde açar.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="kullanım-ipuçları">Kullanım İpuçları</h2>
+<ol type="1">
+<li>Etiketlenmemiş bir butona veya karmaşık bir web formundaki alana
+geldiğinizde <code>NVDA + Shift + N</code> tuşlarına basın.</li>
+<li>Açılan çok satırlı metin kutusuna Markdown sözdizimiyle
+hatırlatıcınızı yazın ve <strong>Kaydet</strong> butonuna basın.</li>
+<li>Daha sonra aynı kontrole her odaklandığınızda NVDA sizi sesli olarak
+uyaracaktır.</li>
+<li>Uzun veya bağlantı içeren bir notu detaylı incelemek için
+<code>NVDA + Ctrl + N</code> tuşlarına basarak sanal web görünümünü
+açabilir, işiniz bittiğinde <code>Escape</code> tuşuyla kapatarak
+kaldığınız yere dönebilirsiniz.</li>
+</ol>

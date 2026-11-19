@@ -1,0 +1,77 @@
+<h1 id="virtual-sticky-notes">Virtual Sticky Notes</h1>
+<ul>
+<li><strong>Author:</strong> Bora Fırlangeç</li>
+<li><strong>Version:</strong> 1.0.0</li>
+<li><strong>NVDA Compatibility:</strong> 2023.1 and later</li>
+</ul>
+<p>Virtual Sticky Notes is an NVDA add-on that allows blind and visually
+impaired users to attach personal <strong>Markdown</strong>-formatted
+sticky notes to specific UI controls (buttons, text fields, links, etc.)
+across desktop applications and web pages.</p>
+<h2 id="key-features">Key Features</h2>
+<ul>
+<li><strong>Smart Control Fingerprinting:</strong> Notes remain attached
+to their target controls even after restarting applications or
+refreshing web pages.</li>
+<li><strong>Instant Audio &amp; Speech Feedback:</strong> When focusing
+on a control that has an attached note, NVDA plays a brief notification
+tone and speaks the first line of the note as a summary.</li>
+<li><strong>Markdown Support:</strong> Write structured notes using
+headings (<code>#</code>), lists (<code>-</code>), links
+(<code>[text](url)</code>), and tables.</li>
+<li><strong>Browse Mode Rendering:</strong> View notes rendered as HTML
+directly inside NVDA’s virtual buffer without opening an external
+browser. Navigate through headings (<code>H</code>), lists
+(<code>L</code>), and links (<code>K</code>) using standard browse mode
+quick navigation keys.</li>
+<li><strong>Application Note List:</strong> View all saved notes for the
+currently active application in a single list and press
+<strong>Enter</strong> on any item to edit it immediately.</li>
+<li><strong>Persistent Storage:</strong> Notes are stored in your NVDA
+user configuration directory (<code>sticky_notes.json</code>), ensuring
+your data remains safe across add-on updates.</li>
+</ul>
+<h2 id="keyboard-shortcuts">Keyboard Shortcuts</h2>
+<p>All gestures can be customized under <strong>NVDA Menu &gt;
+Preferences &gt; Input Gestures &gt; Virtual Sticky Notes</strong>:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: left;">Shortcut</th>
+<th style="text-align: left;">Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>NVDA + Shift + N</code></td>
+<td style="text-align: left;">Add a new sticky note or edit the existing
+note for the focused control.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>NVDA + Alt + N</code></td>
+<td style="text-align: left;">Open a list of all saved notes for the
+active application (press <code>Enter</code> on a note to edit it).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>NVDA + Ctrl + N</code></td>
+<td style="text-align: left;">Render and view the focused control’s
+sticky note in NVDA’s browse mode window.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usage-tips">Usage Tips</h2>
+<ol type="1">
+<li>Move focus to any unlabeled button or complex web form control and
+press <code>NVDA + Shift + N</code>.</li>
+<li>Type your reminder using Markdown syntax in the multiline text box
+and activate the <strong>Save</strong> button.</li>
+<li>Whenever you focus on that control again, NVDA will notify you
+automatically.</li>
+<li>To inspect a long note or follow links inside it, press
+<code>NVDA + Ctrl + N</code> to open the browse mode view, and press
+<code>Escape</code> to return to your previous position.</li>
+</ol>
