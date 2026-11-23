@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: stickyNotes 1.0.0\n"
+"Project-Id-Version: stickyNotes 1.1.0\n"
 "Report-Msgid-Bugs-To: bilgi@kodyazabil.me\n"
 "POT-Creation-Date: 2026-11-15 22:05+0300\n"
 "PO-Revision-Date: 2026-11-15 22:05+0300\n"
@@ -33,11 +33,14 @@ msgstr "Notu &Sil"
 msgid "{app} - Saved Notes ({count})"
 msgstr "{app} - Kayıtlı Notlar ({count} adet)"
 
-msgid "Press Enter on a note to edit it:"
-msgstr "Düzenlemek istediğiniz notun üzerinde Enter tuşuna basın:"
+msgid "Press Enter on a note to focus its control, or F2 to edit it:"
+msgstr "Kontrole odaklanmak için Enter tuşuna, düzenlemek için F2 tuşuna basın:"
 
-msgid "&Edit (Enter)"
-msgstr "&Düzenle (Enter)"
+msgid "&Focus (Enter)"
+msgstr "&Odaklan (Enter)"
+
+msgid "&Edit (F2)"
+msgstr "&Düzenle (F2)"
 
 msgid "&Browse Mode View"
 msgstr "&Sanal Web Görünümü"
@@ -77,3 +80,33 @@ msgstr "Odaktaki kontrolün yapışkan notunu sanal web arayüzünde görüntül
 
 msgid "No note saved for this control."
 msgstr "Bu kontrolde kayıtlı not yok."
+
+msgid "Control for this note was not found in the active window."
+msgstr "Bu nota ait kontrol aktif pencerede bulunamadı."
+
+msgid "Could not focus the control for this note."
+msgstr "Bu nota ait kontrole odaklanılamadı."
+
+msgid "{control}. Note: {summary}"
+msgstr "{control}. Not: {summary}"
+
+msgid "Moved navigator object to {control}. Note: {summary}"
+msgstr "Dolaşım nesnesi {control} öğesine taşındı. Not: {summary}"
+
+msgid "Moved navigator object to {control}."
+msgstr "Dolaşım nesnesi {control} öğesine taşındı."
+
+msgid "Already on {control}. Note: {summary}"
+msgstr "Zaten {control} üzerindesiniz. Not: {summary}"
+
+msgid "Already on {control}."
+msgstr "Zaten {control} üzerindesiniz."
+
+msgid "No noted controls found in the active window."
+msgstr "Aktif pencerede not içeren bir kontrol bulunamadı."
+
+msgid "Focus the next control with a sticky note in the active window."
+msgstr "Aktif pencerede yapışkan not bulunan sonraki kontrole odaklanır."
+
+msgid "Focus the previous control with a sticky note in the active window."
+msgstr "Aktif pencerede yapışkan not bulunan önceki kontrole odaklanır."

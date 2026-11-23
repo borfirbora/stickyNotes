@@ -2,7 +2,7 @@
 Notlar (Virtual Sticky Notes)</h1>
 <ul>
 <li><strong>Yazar:</strong> Bora Fırlangeç</li>
-<li><strong>Sürüm:</strong> 1.0.0</li>
+<li><strong>Sürüm:</strong> 1.1.0</li>
 <li><strong>NVDA Uyumluluğu:</strong> 2023.1 ve üzeri</li>
 </ul>
 <p>Sanal Yapışkan Notlar; görme engelli ve ekran okuyucu kullanan
@@ -27,9 +27,15 @@ harici bir tarayıcı açmadan doğrudan NVDA’nın sanal imleç penceresinde
 HTML olarak görüntüleyebilir; <code>H</code> (başlık), <code>L</code>
 (liste), <code>K</code> (bağlantı) gibi standart web navigasyon
 tuşlarıyla notun içinde gezinebilirsiniz.</li>
-<li><strong>Uygulama Bazlı Not Listesi:</strong> Aktif uygulamaya ait
-tüm notları tek bir listede görüntüleyebilir ve <strong>Enter</strong>
-tuşuna basarak hızla düzenleyebilirsiniz.</li>
+<li><strong>Uygulama Bazlı Not Listesi ve Odaklanma:</strong> Aktif
+uygulamaya ait tüm notları tek bir listede görüntüleyebilir;
+<strong>Enter</strong> tuşuyla notun ait olduğu kontrole doğrudan
+odaklanabilir veya <strong>F2</strong> tuşuyla notu
+düzenleyebilirsiniz.</li>
+<li><strong>Akıllı Nesneye Odaklanma ve Hızlı Gezinme:</strong> Klavye
+kısayollarıyla aktif penceredeki notlu kontroller arasında gezinin.
+Sistem klavye odağı, web sanal imleç konumu ve odaklanamayan öğeler için
+NVDA dolaşım nesnesi desteği sunar.</li>
 <li><strong>Kalıcı Depolama:</strong> Notlarınız NVDA kullanıcı
 yapılandırma dizininde (<code>sticky_notes.json</code>) saklanır;
 eklentiyi güncelleseniz bile verileriniz kaybolmaz.</li>
@@ -58,8 +64,18 @@ veya mevcut notu düzenler.</td>
 <tr>
 <td style="text-align: left;"><code>NVDA + Alt + N</code></td>
 <td style="text-align: left;">Aktif uygulamada kayıtlı tüm notların
-listesini açar (Seçili not üzerinde <code>Enter</code> tuşuna basarak
-düzenleme ekranını açabilirsiniz).</td>
+listesini açar (<code>Enter</code> kontrole odaklanır, <code>F2</code>
+notu düzenler).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>NVDA + Alt + Aşağı Ok</code></td>
+<td style="text-align: left;">Aktif pencerede yapışkan not bulunan
+sonraki kontrole odaklanır.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>NVDA + Alt + Yukarı Ok</code></td>
+<td style="text-align: left;">Aktif pencerede yapışkan not bulunan
+önceki kontrole odaklanır.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>NVDA + Ctrl + N</code></td>
@@ -76,6 +92,11 @@ geldiğinizde <code>NVDA + Shift + N</code> tuşlarına basın.</li>
 hatırlatıcınızı yazın ve <strong>Kaydet</strong> butonuna basın.</li>
 <li>Daha sonra aynı kontrole her odaklandığınızda NVDA sizi sesli olarak
 uyaracaktır.</li>
+<li>Kayıtlı bir notun ait olduğu kontrole hızla gitmek için
+<code>NVDA + Alt + N</code> ile not listesini açıp <code>Enter</code>
+tuşuna basabilir veya <code>NVDA + Alt + Aşağı Ok</code> /
+<code>NVDA + Alt + Yukarı Ok</code> kısayollarıyla aktif penceredeki
+notlu nesneler arasında gezinebilirsiniz.</li>
 <li>Uzun veya bağlantı içeren bir notu detaylı incelemek için
 <code>NVDA + Ctrl + N</code> tuşlarına basarak sanal web görünümünü
 açabilir, işiniz bittiğinde <code>Escape</code> tuşuyla kapatarak

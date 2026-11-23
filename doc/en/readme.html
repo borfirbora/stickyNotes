@@ -1,7 +1,7 @@
 <h1 id="virtual-sticky-notes">Virtual Sticky Notes</h1>
 <ul>
 <li><strong>Author:</strong> Bora Fırlangeç</li>
-<li><strong>Version:</strong> 1.0.0</li>
+<li><strong>Version:</strong> 1.1.0</li>
 <li><strong>NVDA Compatibility:</strong> 2023.1 and later</li>
 </ul>
 <p>Virtual Sticky Notes is an NVDA add-on that allows blind and visually
@@ -24,9 +24,14 @@ directly inside NVDA’s virtual buffer without opening an external
 browser. Navigate through headings (<code>H</code>), lists
 (<code>L</code>), and links (<code>K</code>) using standard browse mode
 quick navigation keys.</li>
-<li><strong>Application Note List:</strong> View all saved notes for the
-currently active application in a single list and press
-<strong>Enter</strong> on any item to edit it immediately.</li>
+<li><strong>Application Note List &amp; Focus:</strong> View all saved notes for
+the currently active application in a single list; press
+<strong>Enter</strong> on any item to jump directly to its control, or
+<strong>F2</strong> to edit the note.</li>
+<li><strong>Smart Object Focusing &amp; Quick Navigation:</strong> Cycle through
+noted controls in the active window using keyboard shortcuts. Supports
+system keyboard focus, web Browse Mode cursor positioning, and NVDA
+Navigator Object fallback for non-focusable elements.</li>
 <li><strong>Persistent Storage:</strong> Notes are stored in your NVDA
 user configuration directory (<code>sticky_notes.json</code>), ensuring
 your data remains safe across add-on updates.</li>
@@ -54,7 +59,18 @@ note for the focused control.</td>
 <tr>
 <td style="text-align: left;"><code>NVDA + Alt + N</code></td>
 <td style="text-align: left;">Open a list of all saved notes for the
-active application (press <code>Enter</code> on a note to edit it).</td>
+active application (<code>Enter</code> focuses the control,
+<code>F2</code> edits the note).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>NVDA + Alt + DownArrow</code></td>
+<td style="text-align: left;">Focus the next control with a sticky note
+in the active window.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>NVDA + Alt + UpArrow</code></td>
+<td style="text-align: left;">Focus the previous control with a sticky
+note in the active window.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>NVDA + Ctrl + N</code></td>
@@ -71,6 +87,11 @@ press <code>NVDA + Shift + N</code>.</li>
 and activate the <strong>Save</strong> button.</li>
 <li>Whenever you focus on that control again, NVDA will notify you
 automatically.</li>
+<li>To jump directly to a noted control, open the note list with
+<code>NVDA + Alt + N</code> and press <code>Enter</code>, or cycle
+through noted controls in the active window with
+<code>NVDA + Alt + DownArrow</code> and
+<code>NVDA + Alt + UpArrow</code>.</li>
 <li>To inspect a long note or follow links inside it, press
 <code>NVDA + Ctrl + N</code> to open the browse mode view, and press
 <code>Escape</code> to return to your previous position.</li>
